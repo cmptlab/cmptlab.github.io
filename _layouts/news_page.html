@@ -1,0 +1,25 @@
+{% include header.html %}
+
+<style>
+  .news-content { max-width: 960px; padding-bottom: 3rem; }
+  .news-content h1 { margin: 1rem 0 1.35rem; }
+  .news-content time { display: block; color: #495057; margin-bottom: .4rem; }
+  .news-content .news-entry { border-top: 1px solid #d7dee4; }
+  .news-content .news-entry h2 { font-size: 1.22rem; color: #225b81; }
+  .news-content .news-entry h2 a { color: inherit; }
+</style>
+
+<main class="container news-content">
+  {% if page.date %}<p><a href="{{ '/news/' | relative_url }}">← All lab news</a></p>{% endif %}
+  <h1>{{ page.title | escape }}</h1>
+  {% if page.date %}
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+  {% endif %}
+  {{ content }}
+</main>
+
+<script src="{{ '/static/js/jquery.min.js' | relative_url }}"></script>
+<script src="{{ '/static/js/popper.min.js' | relative_url }}"></script>
+<script src="{{ '/static/js/bootstrap.min.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,11 +1,11 @@
 ---
-title: Lab news
-layout: post
+title: Lab News
+layout: news_page
 group: news
 ---
 {% assign news_posts = paginator.posts | default: site.posts %}
 {% for post in news_posts %}
-<article class="border-bottom py-3">
+<article class="news-entry py-3">
   <time class="text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
   <h2 class="h4"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
   {{ post.excerpt }}
@@ -22,4 +22,3 @@ group: news
   {% endif %}
 </nav>
 {% endif %}
-<p class="mt-3"><a href="{{ '/news.xml' | relative_url }}">Subscribe via Atom</a></p>
