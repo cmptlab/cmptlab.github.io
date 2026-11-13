@@ -1,0 +1,108 @@
+/* Tablet and phone navigation */
+@media (max-width: 991.98px) {
+  .lab-navbar .navbar-toggler {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .lab-navbar .navbar-collapse .nav-link {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: .5rem .75rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .page-home, .research-content, .pub-list, .people-page,
+  .news-content, .join-content {
+    overflow-wrap: anywhere;
+  }
+
+  .page-home .container-fluid > .row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page-home .container-fluid > .row > .col-sm-8,
+  .page-home .container-fluid > .row > .col {
+    display: contents;
+  }
+
+  .page-home .jumbotron { order: 1; }
+  .page-home .campus-photo { order: 2; }
+  .page-home .cmpt-news { order: 3; }
+  .page-home .join-section { order: 4; }
+  .page-home section[aria-labelledby="contact"] { order: 5; }
+
+  .page-home .container-fluid > .row {
+    margin-inline: 0;
+  }
+
+  .page-home .jumbotron,
+  .page-home .join-section {
+    padding: .85rem .9rem !important;
+    margin: 0 0 .8rem !important;
+  }
+
+  .page-home .jumbotron h1 { font-size: 1.62rem; line-height: 1.28; }
+  .page-home .jumbotron h1 + br { display: none; }
+  .page-home .welcomefont { font-size: 1rem; line-height: 1.53; }
+  .page-home .campus-photo { margin: 0 0 .7rem; }
+
+  .page-home .campus-photo img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2.3;
+    object-fit: cover;
+    object-position: center 54%;
+    border-radius: .3rem;
+  }
+
+  .page-home .cmpt-news h2,
+  .page-home .join-section h3,
+  .page-home #contact { font-size: 1.23rem; }
+
+  .research-content h1, .pub-list h1, .people-page h1,
+  .news-content h1, .join-content h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  .research-content h2, .people-page h2, .join-content h2 {
+    font-size: 1.35rem;
+    line-height: 1.3;
+  }
+
+  .research-content .research-divider { margin: 1.35rem 0; }
+
+  .pub-list .pub-filters { gap: .375rem; margin-bottom: 1rem; }
+  .pub-list .pub-filters a,
+  .pub-list .pub-entry .pub-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: .9rem;
+  }
+
+  .pub-list .pub-entry .pub-link {
+    margin: .2rem .25rem .1rem 0;
+    padding: 0 .5rem;
+    border: 1px solid #dce6ef;
+    border-radius: .25rem;
+  }
+
+  .pub-list .pub-entry h3 { font-size: 1.05rem; }
+  .pub-list .pub-entry p { font-size: .92rem; line-height: 1.5; }
+
+  .people-page .pi-profile { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .people-page .pi-photo { max-width: 170px; }
+  .people-page .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem .75rem; }
+  .people-page .alumni-grid { grid-template-columns: minmax(0, 1fr); }
+
+  .news-content .news-entry h2 { font-size: 1.12rem; }
+  .news-content nav a { display: inline-flex; align-items: center; min-height: 44px; }
+
+  .join-content section { padding-block: 1.2rem; }
+  .join-content .join-pair { margin-bottom: .85rem; }
+}
