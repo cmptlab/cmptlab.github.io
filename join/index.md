@@ -1,34 +1,14 @@
 ---
-title: 加入 CMPT LAB
-layout: research
+title: Join | CMPT LAB
+layout: join_page
 group: join
-lang: zh-CN
+permalink: /join/
 ---
 
-# 加入 CMPT LAB
-
-如果您对肿瘤免疫代谢、肿瘤恶病质、脓毒症或精准药物研发感兴趣，欢迎先了解我们的[研究方向](/research/)。
-
-## 硕士生与博士生
-
-来信时可附简历，简要介绍您的科研经历、感兴趣的科学问题和拟申请的项目。正式报名请以西北工业大学当年的招生通知为准。
-
-## 博士后
-
-来信时可附学术简历、代表性工作，以及一段与实验室研究方向相关的研究设想。
-
-## 本科科研与实习
-
-请简要说明专业、年级、感兴趣的方向和可投入的时间。如有相关课程、实验或数据分析经历，也可一并介绍。
-
-## 联系方式
-
-可通过[魏高飞老师的 ORCID 公开资料](https://orcid.org/0000-0001-7180-7176)查询联系信息。来信时建议注明申请类别。
-
-<div lang="en" markdown="1">
-
-## International inquiries
-
-Please include a CV and a brief description of your research interests, relevant experience, and intended start date. Consult the university’s official application requirements for your program.
-
+<div markdown="0">
+<section aria-labelledby="join"><h1 id="join">Interested in Joining?</h1><div class="join-pair"><p lang="en">We are always interested in welcoming <strong>motivated, curious, and resilient PhD graduates and students</strong> to the Cellular Metabolism and Precision Therapeutics (CMPT) Laboratory at Northwestern Polytechnical University.</p><p lang="zh-CN">我们诚挚欢迎<strong>积极进取、富有好奇心、具有探索精神和科研韧性</strong>的博士毕业生和学生加入我们细胞代谢与精准治疗CMPT实验室。</p></div><div class="join-pair"><p lang="en">Our research focuses on <strong>immunometabolic mechanisms and innovative drug design</strong>, with applications in <strong>cancer, sepsis, and cancer cachexia</strong>. We welcome individuals with backgrounds in pharmacology, medicinal chemistry, biology, medicine, and related disciplines. Previous research experience in immunometabolism is not required, but a <strong>strong interest in scientific discovery and a willingness to learn</strong> are highly valued.</p><p lang="zh-CN">实验室主要围绕<strong>免疫代谢调控机制与创新药物设计</strong>开展研究，重点关注<strong>肿瘤、脓毒症和肿瘤恶病质</strong>等重大疾病。欢迎具有药理学、药物化学、生物学、医学及相关专业背景的申请者加入。我们<strong>不要求申请者必须具有免疫代谢领域的研究经历</strong>，但看重申请者对科学探索的浓厚兴趣和主动学习的意愿。</p></div></section>
+<section aria-labelledby="postdocs"><h2 id="postdocs">Postdoctoral Researchers <span class="join-cn-title" lang="zh-CN">博士后</span></h2><div class="join-pair"><p lang="en">We welcome applications from motivated postdoctoral researchers interested in <strong>immunometabolism</strong>. Candidates with a Ph.D. in pharmacology, medicinal chemistry, biological sciences, medicine, or related fields are encouraged to contact us.</p><p lang="zh-CN">我们欢迎有志于从事<strong>免疫代谢研究</strong>的优秀青年学者申请博士后岗位。申请者应具有药理学、药物化学、生物学、医学或相关专业博士学位。</p></div><div class="join-pair"><p lang="en">We particularly value <strong>scientific curiosity, independent thinking, and enthusiasm for exploring immunometabolic mechanisms</strong>. We also highly value <strong>perseverance in scientific exploration</strong>, especially when facing challenges, setbacks, and uncertainties in research.</p><p lang="zh-CN">我们尤其重视申请者的<strong>科学好奇心、独立思考能力和探索免疫代谢研究的热情</strong>。同时，我们也十分看重<strong>科研探索中的韧性与坚持</strong>，尤其是在面对科研困难、挫折和不确定性时，能够保持积极的探索精神并持续推进研究。</p></div></section>
+<section aria-labelledby="phd"><h2 id="phd">PhD Students <span class="join-cn-title" lang="zh-CN">博士研究生</span></h2><div class="join-pair"><p lang="en">We are happy to work with <strong>motivated and enthusiastic PhD students</strong> interested in <strong>exploring immunometabolic mechanisms and developing innovative therapeutic strategies</strong>.</p><p lang="zh-CN">我们欢迎<strong>积极主动、富有科研热情</strong>，并对免疫代谢机制探索及创新治疗策略研发感兴趣的同学申请攻读博士学位。</p></div><div class="join-pair"><p lang="en">Students with backgrounds in pharmacology, medicinal chemistry, molecular biology, immunology, medicine, or related disciplines are welcome. We value <strong>intellectual curiosity, critical thinking, and a strong commitment to scientific research</strong>.</p><p lang="zh-CN">欢迎具有药理学、药物化学、分子生物学、免疫学、医学及相关专业背景的同学申请。我们重视申请者的<strong>科学好奇心、批判性思维以及对科研工作的热情与投入</strong>。</p></div></section>
+<section aria-labelledby="masters"><h2 id="masters">Master&#x27;s Students <span class="join-cn-title" lang="zh-CN">硕士研究生</span></h2><div class="join-pair"><p lang="en">We are also happy to welcome <strong>curious and motivated Master&#x27;s students</strong> who are interested in <strong>immunometabolism and innovative drug discovery</strong>.</p><p lang="zh-CN">我们同样欢迎<strong>富有好奇心、积极主动</strong>，并对免疫代谢研究及创新药物研发感兴趣的同学申请攻读硕士学位。</p></div><div class="join-pair"><p lang="en"><strong>Previous research experience is not essential.</strong> We particularly value <strong>a willingness to learn, </strong><strong>enthusiasm for experimental research, and a responsible approach to scientific work</strong>.</p><p lang="zh-CN"><strong>不要求申请者必须具有既往科研经历。</strong> 我们更加重视同学们<strong>主动学习的意愿、对科学实验的热情，以及认真负责的科研态度</strong>。</p></div></section>
+<section aria-labelledby="apply"><h2 id="apply">How to Apply <span class="join-cn-title" lang="zh-CN">申请方式</span></h2><div class="join-pair"><p lang="en">If you are interested in joining the CMPT Laboratory as a postdoctoral researcher, PhD student, or Master&#x27;s student, please contact us at <a href="mailto:wei_gaofei@nwpu.edu.cn">wei_gaofei@nwpu.edu.cn</a> with the following information:</p><p lang="zh-CN">如果您有意申请加入CMPT实验室，从事博士后研究或攻读博士、硕士学位，欢迎发送邮件至 <a href="mailto:wei_gaofei@nwpu.edu.cn">wei_gaofei@nwpu.edu.cn</a>，并提供以下材料：</p></div><ol class="join-materials"><li><div class="join-pair"><p lang="en">A brief introduction to your academic background, research interests, and previous research experience (if any).</p><p lang="zh-CN">个人简介，包括教育背景、研究兴趣及既往科研经历（如有）。</p></div></li><li><div class="join-pair"><p lang="en">Your <strong>CV</strong>.</p><p lang="zh-CN"><strong>个人简历</strong>。</p></div></li><li><div class="join-pair"><p lang="en">Any other relevant information, such as publications or previous research projects (if applicable).</p><p lang="zh-CN">其他相关材料，如已发表论文、参与的科研项目等（如有）。</p></div></li></ol><div class="join-pair"><p lang="en">We would be happy to learn more about your interests and discuss potential research opportunities in our lab.</p><p lang="zh-CN">我们期待了解您的研究兴趣，并欢迎就加入实验室的相关机会进行交流。</p></div></section>
 </div>

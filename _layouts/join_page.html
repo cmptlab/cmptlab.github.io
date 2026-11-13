@@ -1,0 +1,25 @@
+{% include header.html %}
+
+<style>
+.join-content{max-width:960px;padding-bottom:3rem}
+.join-content section{padding:1.7rem 0;border-top:1px solid #d7dee4}
+.join-content section:first-child{border-top:0;padding-top:.7rem}
+.join-content h1,.join-content h2{color:#225b81;margin-bottom:1.05rem}
+.join-content h2{font-size:1.56rem}
+.join-cn-title{font-size:.78em;font-weight:600;margin-left:.42em;display:inline-block}
+.join-pair{margin-bottom:1.05rem}
+.join-pair p{margin:0 0 .32rem}
+.join-pair p[lang="zh-CN"]{color:#455463}
+.join-materials{padding-left:1.55rem}
+.join-content a{overflow-wrap:anywhere}
+</style>
+
+<main class="container join-content">
+  {{ content }}
+</main>
+
+<script src="{{ '/static/js/jquery.min.js' | relative_url }}"></script>
+<script src="{{ '/static/js/popper.min.js' | relative_url }}"></script>
+<script src="{{ '/static/js/bootstrap.min.js' | relative_url }}"></script>
+</body>
+</html>
