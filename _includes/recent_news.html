@@ -1,7 +1,13 @@
 <section class="cmpt-news mb-3" aria-labelledby="recent-news">
   <h2 class="h3" id="recent-news">Recent News</h2>
   <ul class="list-unstyled">
-    {% for post in site.posts limit:3 %}
+    {% assign recent_posts = site.posts %}
+    {% comment %}Temporarily repeat the second item until a third post is published.{% endcomment %}
+    {% if recent_posts.size == 2 %}
+      {% assign repeated_post = recent_posts | slice: 1, 1 %}
+      {% assign recent_posts = recent_posts | concat: repeated_post %}
+    {% endif %}
+    {% for post in recent_posts limit:3 %}
     <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
     {% endfor %}

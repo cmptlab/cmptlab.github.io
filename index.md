@@ -4,14 +4,17 @@ layout: home
 group: home
 ---
 
-# Welcome to CMPT LAB!
+# Welcome to the CMPT Lab!
 {: .display-5}
 <br>
 
 {: .welcomefont}
-We are the **Cellular Metabolism & Precision Therapeutics Laboratory** at Northwestern Polytechnical University studying how cellular metabolism shapes immune function in cancer, cancer cachexia, and sepsis.
+We are the **Cellular Metabolism and Precision Therapeutics (CMPT) Laboratory**, a biomedical research group at Northwestern Polytechnical University.
 
 {: .welcomefont}
-We combine mechanistic studies with medicinal chemistry to develop precision therapeutics, including immune–metabolic drug conjugates (IMDC), prodrugs, and targeted protein degraders.
+Our research focuses on **cellular metabolism–immune regulation** and innovative therapeutic development for major diseases, including cancer, sepsis, and cancer cachexia.
+
+{: .welcomefont}
+Our current research emphasizes **glutamine metabolism**–driven immunometabolic regulation and the development of **immune–metabolic drug conjugates (IMDC)** as a new therapeutic strategy.
 
 [Explore our research](/research/) · [Selected publications](/publications/)
