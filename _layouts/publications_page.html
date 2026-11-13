@@ -11,6 +11,12 @@
 .pub-entry p{margin:0 0 .2rem}
 .pub-meta{color:#4c5660}
 .pub-link{white-space:nowrap;margin-left:.45rem}
+.pub-filters {display:flex;flex-wrap:wrap;gap:.55rem;margin:0 0 1.5rem}
+.pub-filters a {padding:.38rem .8rem;border:1px solid #cddbe6;border-radius:.3rem;color:#225b81;font-weight:600}
+.pub-filters a:hover {background:#edf4fa}
+.pub-filters a[aria-current="true"] {background:#225b81;color:white;border-color:#225b81}
+.pub-filters a:focus-visible {outline:2px solid #2774ae;outline-offset:3px}
+.pub-list section[hidden] {display:none}
 </style>
 
 <main class="container pub-list pb-4">
@@ -20,5 +26,24 @@
 <script src="/static/js/jquery.min.js"></script>
 <script src="/static/js/popper.min.js"></script>
 <script src="/static/js/bootstrap.min.js"></script>
+<script>
+(() => {
+  const filters = Array.from(document.querySelectorAll('.pub-filters a'));
+  const groups = Array.from(document.querySelectorAll('.pub-list section[id], .pub-list section[aria-labelledby]'));
+  function applyFilter() {
+    const hash = window.location.hash.slice(1);
+    const year = filters.some(link => link.hash === '#' + hash) ? hash : 'all';
+    for (const group of groups) {
+      group.hidden = year !== 'all' && group.getAttribute('aria-labelledby') !== 'year-' + year;
+    }
+    for (const link of filters) {
+      if (link.hash === '#' + year) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    }
+  }
+  window.addEventListener('hashchange', applyFilter);
+  applyFilter();
+})();
+</script>
 </body>
 </html>
