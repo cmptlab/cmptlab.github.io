@@ -1,0 +1,24 @@
+{% include header.html %}
+
+<style>
+.pub-list{max-width:980px}
+.pub-list h1{margin-bottom:1.65rem}
+.pub-year{color:#2774ae;border-bottom:1px solid #cddbe6;padding-bottom:.55rem;margin:1.8rem 0 .2rem}
+.pub-entry{padding:1rem 0;border-bottom:1px solid #e6edf2}
+.pub-entry:last-child{border-bottom:0}
+.pub-entry h3{font-size:1.12rem;color:#225b81;line-height:1.45;margin:0 0 .3rem}
+.pub-number{color:#506979;font-variant-numeric:tabular-nums;margin-right:.55rem}
+.pub-entry p{margin:0 0 .2rem}
+.pub-meta{color:#4c5660}
+.pub-link{white-space:nowrap;margin-left:.45rem}
+</style>
+
+<main class="container pub-list pb-4">
+  {{ content }}
+</main>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+</body>
+</html>
