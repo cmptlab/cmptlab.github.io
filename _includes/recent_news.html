@@ -1,0 +1,10 @@
+<section class="cmpt-news mb-3" aria-labelledby="recent-news">
+  <h2 class="h3" id="recent-news">Recent News</h2>
+  <ul class="list-unstyled">
+    {% for post in site.posts limit:3 %}
+    <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ '/news/' | relative_url }}">All lab news</a>
+</section>

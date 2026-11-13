@@ -1,0 +1,684 @@
+@media (min-width: 992px) {
+   .navbar-collapse {
+       display: none !important;
+   }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.chart {
+  position: relative;
+  width: 100%;
+  height: 500px
+}
+
+.smalltxt {
+  font-size: 0.9rem;
+}
+
+.mem-icon {
+  height: 1em;
+}
+
+.navb-icon {
+  height: 3em;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.lab-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e6edf2;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.lab-navbar-brand {
+  align-items: center;
+  display: inline-flex;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.navbar-lab-wordmark {
+  display: block;
+  height: 48px;
+  max-width: 68vw;
+  width: auto;
+}
+
+.nav-link {
+  font-size: 1.2em !important;
+}
+
+.welcomefont {
+  font-size: 1.5em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.jumbotron {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  margin-bottom: 0 !important;
+}
+
+.jumbotron.h-100 {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.home-image {
+  max-width: 50%;
+  margin: 2rem auto;
+  display: block;
+}
+
+.home-image-right {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.join-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+}
+
+.join-section h3 {
+    margin-bottom: 1rem;
+    color: #2774AE;
+}
+
+/*
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/*
+.navbar-default {
+  background-color: #052049;
+  border-color: #668a75;
+}
+
+.navbar-default .navbar-brand {
+  font-family: "Lucida Bright", Georgia, serif;
+
+  color: #f6f6f6;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fdfdfd;
+}
+.navbar-default .navbar-text {
+  color: #f6f6f6;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f6f6f6;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fdfdfd;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fdfdfd;
+  background-color: #668a75;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fdfdfd;
+  background-color: #668a75;
+}
+.navbar-default .navbar-toggle {
+  border-color: #668a75;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #668a75;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f6f6f6;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f6f6f6;
+}
+.navbar-default .navbar-link {
+  color: #f6f6f6;
+}
+.navbar-default .navbar-link:hover {
+  color: #fdfdfd;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f6f6f6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fdfdfd;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fdfdfd;
+    background-color: #668a75;
+  }
+}
+*/
+
+/* Publications page styling */
+.publications {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.publications h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.publications h2 {
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.5rem;
+    color: #333;
+}
+
+.publication-note {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.publication-note.award {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.publication-item {
+    margin-bottom: 0.8rem;
+}
+
+.publication-content {
+    margin-left: 0;
+}
+
+.publication-title {
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    color: #333;
+}
+
+.publication-title a {
+    color: #F26096;
+    text-decoration: none;
+}
+
+.publication-title a:hover {
+    text-decoration: underline;
+}
+
+.publication-authors {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+}
+
+.publication-authors u {
+    font-weight: normal;
+}
+
+.publication-authors strong {
+    font-weight: bold;
+}
+
+.publication-journal {
+    color: #2774AE;
+    margin-bottom: 0.2rem;
+}
+
+.publication-software, .publication-links {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.publication-software a, .publication-links a {
+    color: #2774AE;
+    text-decoration: none;
+}
+
+.publication-software a:hover, .publication-links a:hover {
+    text-decoration: underline;
+}
+
+.publication-links {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.publication-links a {
+    color: #2774AE;
+    text-decoration: none;
+}
+
+.publication-links a:hover {
+    text-decoration: underline;
+}
+
+/* Remove the negative margin that was causing spacing issues */
+.publication-links [href*="slides"],
+.publication-links [href*="talk"] {
+    margin-left: 0;
+}
+
+/* People page styling */
+body.page-members > .container {
+    max-width: 1200px;
+}
+
+.people {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.people h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.people h2 {
+    font-size: 1.6rem;
+    margin: 2rem 0 1.5rem;
+    color: #333;
+}
+
+.people hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.member-profile {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.member-image {
+    flex: 0 0 200px;
+}
+
+.member-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-info {
+    flex: 1;
+}
+
+.member-info h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+    color: #333;
+}
+
+.member-info h3 {
+    font-size: 1.1rem;
+    margin: 0 0 1rem;
+    color: #666;
+    font-weight: normal;
+}
+
+.member-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 0 1rem;
+}
+
+.member-info a {
+    color: #2774AE;
+    text-decoration: none;
+}
+
+.member-info a:hover {
+    text-decoration: underline;
+}
+
+.member-group {
+    margin: 2rem 0 2.5rem;
+}
+
+.member-group h3 {
+    font-size: 1.2rem;
+    margin: 0 0 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.member-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 2rem 1.25rem;
+    width: 100%;
+}
+
+.member-card {
+    width: 100%;
+    max-width: 170px;
+    justify-self: center;
+    text-align: center;
+    color: inherit;
+}
+
+.member-card-link,
+.member-card-link:hover {
+    text-decoration: none;
+}
+
+.member-card > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.member-card-name {
+    text-align: center;
+    margin-bottom: 0.35rem;
+}
+
+.member-card h4 {
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0;
+    color: #333;
+}
+
+.member-card p {
+    font-size: 0.9rem;
+    line-height: 1.35;
+    margin: 0;
+    color: #666;
+}
+
+.member-card-note {
+    margin-top: 0.45rem;
+    font-size: 0.85rem;
+    line-height: 1.35;
+    color: #666;
+}
+
+.member-card-note p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    color: inherit;
+}
+
+.member-card-note a {
+    color: #2774AE;
+    text-decoration: none;
+}
+
+.member-card-note a:hover {
+    text-decoration: underline;
+}
+
+.member-links {
+    display: inline-flex;
+    gap: 0.3rem;
+    margin-left: 0.3rem;
+    line-height: 1;
+    vertical-align: -0.16em;
+    white-space: nowrap;
+}
+
+.member-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 17px;
+}
+
+.member-links img {
+    width: auto;
+    height: 17px;
+    display: block;
+}
+
+.lab-fun {
+    margin: 1.25rem 0 2rem;
+}
+
+.lab-fun-heading {
+    margin-bottom: 1rem;
+}
+
+.lab-fun-carousel {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.lab-fun-image-wrap {
+    height: 460px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.lab-fun-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.lab-fun-caption {
+    margin: 0.7rem 0 2.1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.lab-fun-indicators {
+    bottom: 1.1rem;
+    margin-bottom: 0;
+}
+
+.lab-fun-indicators li {
+    background-color: #2774AE;
+}
+
+.lab-fun-control {
+    width: 12%;
+}
+
+.lab-fun-control .carousel-control-prev-icon,
+.lab-fun-control .carousel-control-next-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-size: 50% 50%;
+}
+
+.join-us {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.join-us h3 {
+    color: #2774AE;
+    margin-bottom: 1rem;
+}
+
+.join-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.join-us ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.join-us li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.join-us li:before {
+    content: "•";
+    color: #2774AE;
+    position: absolute;
+    left: 0;
+}
+
+.join-us a {
+    color: #2774AE;
+    text-decoration: none;
+}
+
+.join-us a:hover {
+    text-decoration: underline;
+}
+
+/* Alumni list styling */
+.people ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.people ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.8rem 0;
+    display: list-item;
+}
+
+.people ul li strong {
+    color: #333;
+}
+
+.people ul li ul {
+    margin: 0.3rem 0 0.3rem 1.5rem;
+}
+
+.people ul li ul li {
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+    color: #666;
+}
+
+/* Research page styling */
+.research-section {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    align-items: flex-start;
+}
+
+.research-text {
+    flex: 1;
+    min-width: 0; /* Prevents flex item from overflowing */
+}
+
+.research-image {
+    flex: 0 0 40%;
+    min-width: 0; /* Prevents flex item from overflowing */
+}
+
+.research-image img {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .people {
+        padding: 15px;
+    }
+
+    .member-profile {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .member-image {
+        flex: 0 0 auto;
+    }
+
+    .member-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .member-info {
+        width: 100%;
+    }
+
+    .member-grid {
+        justify-content: center;
+    }
+
+    .lab-fun-image-wrap {
+        height: 300px;
+    }
+
+    .research-section {
+        flex-direction: column;
+    }
+    
+    .research-image {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+/* CMPT LAB identity and image sizing */
+.cmpt-brand { color: #2774AE; letter-spacing: .05em; font-size: 1.55rem; }
+.campus-photo img { height: auto; }
+.cmpt-news li { margin-bottom: .65rem; }
+.cmpt-news time { display: block; color: #495057; }
+@media (min-width: 992px) {
+  .lab-navbar.navbar-expand-lg .navbar-collapse { display: flex !important; }
+}

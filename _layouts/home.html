@@ -1,0 +1,23 @@
+{% include header.html %}
+<div class="container-fluid px-3">
+    <div class="row">
+        <div class="col-sm-8">
+    	    <div class="jumbotron h-100">
+        	    {{ content }}
+            </div>
+            <div class="join-section text-center">
+                <h3>Interested in joining CMPT LAB?</h3>
+                <p>Learn how to contact us about graduate study, postdoctoral research, and undergraduate research. <b>Please see the <a href="/join/">Join</a> page for details.</b></p>
+            </div>
+        </div>
+        <div class="col">
+            <figure class="campus-photo">
+                <img class="home-image-right mb-1" src="/static/img/npu-campus.jpg" alt="East gate of Northwestern Polytechnical University’s Chang’an campus" width="1280" height="960">
+                <figcaption class="small text-muted">Chang’an campus east gate · <a href="https://commons.wikimedia.org/wiki/File:Northwestern_Polytechnical_University_Chang%27an_Campus_Gate.jpg">Nishino Asuka</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>
+            </figure>
+            {% include recent_news.html %}
+            {% include contact_sidebar.html %}
+        </div>
+    </div>
+</div>
+{% include footer.html %}
