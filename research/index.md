@@ -6,9 +6,12 @@ permalink: /research/
 ---
 
 <section markdown="0"><h1>Research</h1>
-<p>Our laboratory investigates the interplay between <strong>cellular metabolism and immune regulation</strong> in major human diseases, including cancer, sepsis, and cancer cachexia. Our research focuses on key metabolic pathways, particularly <strong>glucose metabolism, pyrimidine metabolism, and glutamine metabolism</strong>, and their roles in regulating cellular function, immune responses, and disease progression. Understanding these complex interactions provides new opportunities for developing innovative therapeutic strategies.</p>
-<p>However, metabolic pathways are often shared by diseased cells and healthy tissues, making selective therapeutic intervention a major challenge. We aim to address this challenge by integrating <strong>mechanistic studies of immunometabolism and innovative drug design</strong> to develop more precise and effective therapeutic approaches.</p>
-<p>Keywords: <em>Immunometabolism, cancer, sepsis, cancer cachexia.</em></p></section>
+<p>Our laboratory investigates how <strong>cellular metabolism shapes immune regulation</strong> in gastrointestinal cancers and their associated complications, including <strong>cancer cachexia and postoperative sepsis</strong>. We study how metabolic reprogramming influences tumor progression and antitumor immunity, how tumors disrupt host metabolism and drive tissue wasting, and how immune and metabolic dysregulation contributes to sepsis following gastrointestinal cancer surgery. Across these settings, we focus on <strong>glucose, pyrimidine, and glutamine metabolism</strong> and their roles in disease progression.</p>
+
+<p>Many of the metabolic pathways that sustain tumor growth or drive pathological inflammation also support normal immune and tissue function. We combine <strong>mechanistic studies of immunometabolism with innovative drug design</strong> to develop therapeutics that selectively modulate disease-associated metabolic processes while preserving essential physiological functions.</p>
+
+<p><strong>Keywords</strong><br>
+<em>Gastrointestinal cancers, cancer cachexia, postoperative sepsis, immunometabolism, precision therapeutics.</em></p></section>
 
 <hr class="research-divider">
 
